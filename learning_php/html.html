@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario en Tabla</title>
+</head>
+<body>
+
+<form method="post" action="procesar.php">
+    <table border="1"> <!-- Asegúrate de incluir el atributo border para que las celdas sean visibles -->
+        <tr>
+            <td>Nombre:</td>
+            <td><input type="text" name="nombre" required></td>
+        </tr>
+        <tr>
+            <td>Apellido:</td>
+            <td><input type="text" name="apellido" required></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"><input type="submit" value="Enviar"></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
